@@ -11,6 +11,7 @@ struct process
     int turnaround_time;
     int waiting_time;
     int response_time;
+	
 };
 class Scheduling_alogorithm
 {
