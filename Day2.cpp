@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+
+    //Data Types and Operators
     int a = 'a';
     cout<< a << endl;
 
@@ -19,4 +21,15 @@ int main() {
 
     int e = 0;
     cout<< !e <<endl;
+
+    // Conditional & Loops
+    int g;
+    cin>>g;
+    
+    if(g>0){
+        cout << "A is a Positive"<< endl;
+    }
+    else{
+        cout << "A is a Negative"<< endl;
+    }
 }
