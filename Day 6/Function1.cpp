@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int power(){
     int a, b;
     cin>>a>>b;
