@@ -9,6 +9,7 @@ int power(){
     }
     return ans;
 }
+
 int main(){
     
     int answer = power();
