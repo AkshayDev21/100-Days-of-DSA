@@ -8,11 +8,8 @@ bool isPrime(int n){
         if(n&i==0){
             return 0;
         }
-        else{
-            return 1;
-        }
-
     }
+    return 1;
 }
 int main(){
     int n;
@@ -21,6 +18,9 @@ int main(){
     if (isPrime(n)){
         cout<<"is a prime number"<<endl;
     }
-    cout<<"is not a prime number"<<endl;
+    else{
+        cout<<"is not a prime number"<<endl;
+    }
+    return 0;
 
 }
