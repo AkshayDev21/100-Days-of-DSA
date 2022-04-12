@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// 1 -> Prime 
-// 0 -> Not Prime
+
+
+// 1 -> Prime No.
+// 0 -> Not Prime No.
 bool isPrime(int n){
     for(int i =2; i<n; i++){
         if(n&i==0){
