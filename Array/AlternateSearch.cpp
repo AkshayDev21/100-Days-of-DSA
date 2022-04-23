@@ -19,7 +19,8 @@ int main(){
     int even[6] = {1,2,3,4,5,6};
     int odd[5] = {1,2,3,4,5};
     
-    swapAlternate(even, 6);
+    
+    swapAlternate(even,6);
     printArray(even,6);
 
     swapAlternate(odd, 5);

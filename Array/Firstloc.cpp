@@ -18,7 +18,6 @@ int firstOcc(int arr[], int n, int key){
             e = mid-1;
         }
         mid = s + (e-s)/2;
-
     }
     return ans;
 }
