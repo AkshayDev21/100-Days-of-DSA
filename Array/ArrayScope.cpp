@@ -10,9 +10,7 @@ void update(int arr[], int n){
         cout<<arr[i]<<endl;
     }
     cout<<endl;
-
     cout<<"Going back to main function"<<endl;
-
 
 }
 int main(){
