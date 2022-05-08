@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     
+
     //Pattern 1
     int n;
     cin>>n;
