@@ -10,6 +10,7 @@ class A{
     void sayhello(string name){
         cout<<"Hello "<< name <<endl;
     }
+    
 };
 int main(){
     A obj;
