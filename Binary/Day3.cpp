@@ -9,6 +9,7 @@ int main(){
     cout<<"Enter the number a"<< endl;
     cin>>a;
 
+    
     cout<<"Enter the number b"<< endl;
     cin>>b;
 
