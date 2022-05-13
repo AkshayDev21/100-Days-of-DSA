@@ -6,6 +6,7 @@ void update(int arr[], int n){
     cout<<"Inside the function"<<endl; 
 
     
+    
     //printing the array of
     for(int i=0; i<3; i++){
         cout<<arr[i]<<endl;
