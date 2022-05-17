@@ -8,8 +8,7 @@ int main(){
     cin>>n;
 
     int row =1;
-    
-     
+   
     while(row<=n){
         // space code
         int space=n-row;
