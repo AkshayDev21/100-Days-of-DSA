@@ -27,7 +27,6 @@ int main(){
         row = row + 1;
     }
     
-
    //Second Spcae Problem
    int n;
    cin>>n;
