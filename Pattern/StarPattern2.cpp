@@ -8,8 +8,7 @@ int main(){
     cin>>n;
 
     int row =1;
-    
-     
+   
     while(row<=n){
         // space code
         int space=n-row;
@@ -28,7 +27,6 @@ int main(){
         row = row + 1;
     }
     
-
    //Second Spcae Problem
    int n;
    cin>>n;
