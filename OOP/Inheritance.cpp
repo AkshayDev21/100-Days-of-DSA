@@ -5,7 +5,6 @@ class Human {
     int height;
     int weight;
     int age;
-    
     public:
     getAge(){
         return this->age;
