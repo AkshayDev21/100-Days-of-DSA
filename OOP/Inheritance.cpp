@@ -1,12 +1,10 @@
 #include <iostream>
 using namespace std;
-
 class Human {
     public :
     int height;
     int weight;
     int age;
-    
     public:
     getAge(){
         return this->age;
