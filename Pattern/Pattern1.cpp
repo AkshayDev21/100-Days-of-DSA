@@ -1,11 +1,9 @@
 #include<iostream>
 using namespace std;
-
 int main(){
     //Star Pattern 
     int n;
     cin>>n;
-
     int i=1;
     while(i<=n){
 
