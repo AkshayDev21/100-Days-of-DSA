@@ -20,7 +20,6 @@ def sumOfDistancesInTree( N, edges):
                 if child != parent:
                     ans[child] = ans[node] - count[child] + N - count[child]
                     dfs2(child, node)
-
         dfs()
         dfs2()
         return ans
