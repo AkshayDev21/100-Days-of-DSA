@@ -2,15 +2,24 @@
 using namespace std;
 
 int main(){
-    int num =5;
-    cout<<"The address of num is "<<&num<<endl;
+    // int num =5;
+    // cout<<"The address of num is "<<&num<<endl;
 
-    int *ptr = &num;
-    cout<<"Value is "<<*ptr<<endl;
-    cout<<"Address is "<<ptr<<endl;
+    // int *ptr = &num;
+    // cout<<"Value is "<<*ptr<<endl;
+    // cout<<"Address is "<<ptr<<endl;
 
-    double d = 4.5;
-    double *p2 = &d;
-    cout<<"Value is "<<*p2<<endl;
-    cout<<"Address is "<<p2<<endl;
+    // double d = 4.5;
+    // double *p2 = &d;
+    // cout<<"Value is "<<*p2<<endl;
+    // cout<<"Address is "<<p2<<endl;
+
+
+    int i=3;
+    int *t = &i;
+    // cout<< (*t)++<<endl;
+    *t = *t +1;
+    cout<< *t <<endl;
+
+   
 }
