@@ -10,4 +10,5 @@ class Solution:
                 big_time = heappop(heap)
                 max_time += big_time
                 
+                
         return len(heap)    
