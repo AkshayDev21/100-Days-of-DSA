@@ -6,6 +6,7 @@ void printCounting(int n){
         cout<< i<<" ";
     }
 }
+
 int main(){
     int n;
     cin>>n;

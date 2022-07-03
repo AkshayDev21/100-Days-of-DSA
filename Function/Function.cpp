@@ -10,5 +10,6 @@ int main(){
     for(int i=1; i<=b; i++){
         ans = ans * a;
     }
+    
     cout<<"answer is "<< ans << endl;
 }
