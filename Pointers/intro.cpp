@@ -14,7 +14,6 @@ int main(){
     // cout<<"Value is "<<*p2<<endl;
     // cout<<"Address is "<<p2<<endl;
 
-
     int i=3;
     int *t = &i;
     // cout<< (*t)++<<endl;
