@@ -11,5 +11,6 @@ public:
             deq[++b] = i;
         }
         return nums[0];
+        
     }
 };
