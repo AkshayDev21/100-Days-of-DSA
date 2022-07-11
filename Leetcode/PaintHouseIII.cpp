@@ -23,7 +23,6 @@ public:
                      houses[i]);
 
     int ans = kMax;
-
     // try to paint houses[i] with each color in 1..n
     for (int color = 1; color <= n; ++color)
       ans = min(ans, cost[i][color - 1] + minCost(houses, cost, m, n,
