@@ -22,6 +22,7 @@ public:
             for (int j = 1; j <= N; ++j)
                 T[i][j] = (T[i-1][j] && s1[i-1] == s3[i+j-1] ) || (T[i][j-1] && s2[j-1] == s3[i+j-1] );
         
+        
         return T[M][N];
     }
 };
