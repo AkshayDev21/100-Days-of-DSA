@@ -12,6 +12,7 @@ int main() {
 	    for(int i=0; i<n;i++){
 	        cin>>arr[i];
 	    }
+		
 	    bool ans =true;
 	    
 	    for(int i=0; i<n-1;i++){

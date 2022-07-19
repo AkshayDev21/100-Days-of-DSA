@@ -8,7 +8,6 @@ int power(){
         ans = ans * a;
     }
     return ans;
-    
 }
 
 int main(){
