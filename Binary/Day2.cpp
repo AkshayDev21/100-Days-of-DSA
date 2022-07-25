@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-
     //Data Types and Operators
     int a = 'a';
     cout<< a << endl;
