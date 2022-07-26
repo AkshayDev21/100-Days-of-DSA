@@ -3,7 +3,6 @@ using namespace std;
 
 int main(){
     // int arr[10] = {2,5,6};
-
     // cout<<"Address of the first memory block is "<< arr <<endl;
     // cout<<"Address of the first memory block is "<< &arr[0] <<endl;
 
@@ -11,7 +10,7 @@ int main(){
     // cout<<"5th " << *arr + 1 <<endl;
     // cout<<"6th " << *(arr + 1) <<endl;
     // cout<<"7th " << (*arr) + 1 <<endl;
-
+    
     // int i= 2;
     // cout<<i[arr] <<endl;
 
@@ -26,6 +25,5 @@ int main(){
 
     int *p = &a[0];
     cout<< &p << endl; 
-
     return 0;
 }
