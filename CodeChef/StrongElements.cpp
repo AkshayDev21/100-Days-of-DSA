@@ -7,7 +7,6 @@ int GCD(int a , int b){
     return GCD(b , a%b);
 }
 int main() {
-    
 	int t;
 	cin>>t;
 	while(t--){
