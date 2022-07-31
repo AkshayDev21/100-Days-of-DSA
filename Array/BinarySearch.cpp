@@ -21,8 +21,6 @@ int binarysearch(int arr[], int size, int key){
         mid = start + (end-start)/2;
     }
     return -1;
-
-
 }
 int main(){
     int even[6] = {0,1,12,23,34,45};
