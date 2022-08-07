@@ -17,7 +17,6 @@ public:
                 v[i] = max(v[i],v[i+1]+1);
             }
         }
-        
         int ans = 0;
         for(auto i:v)
         {
