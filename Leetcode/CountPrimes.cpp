@@ -1,6 +1,5 @@
 // Sieve Of Eratosrhenes approach
 
-
 class Solution {
 public:
     int countPrimes(int n) {

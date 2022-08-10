@@ -6,7 +6,6 @@ class A{
     void sayhello(){
         cout<<"Hello Akshay:"<<endl;
     }
-
     void sayhello(string name){
         cout<<"Hello "<< name <<endl;
     }
