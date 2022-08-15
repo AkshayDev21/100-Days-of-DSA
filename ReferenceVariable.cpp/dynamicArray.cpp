@@ -7,7 +7,6 @@ int getSum(int *arr){
     }
     return sum; 
 }
-
 int main(){
 
     // char ch = 'q';
