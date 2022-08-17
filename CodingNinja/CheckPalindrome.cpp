@@ -13,7 +13,6 @@ bool checkPalindrome(char a[], int n){
             e--;
         }
     }
-    
     return 1;
 }
 int main(){

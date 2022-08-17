@@ -8,7 +8,6 @@ void insertionSort(int n, vector<int> &arr){
                 //shift
                 arr[j+1] = arr[j];
             }
-            
             else { 
                 break;
             }

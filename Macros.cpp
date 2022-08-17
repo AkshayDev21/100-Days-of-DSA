@@ -4,7 +4,6 @@ using namespace std;
 int main(){
     int r = 5;
     double area = Pi * r * r;
-    
     cout<<"Area is "<<area<<endl;
     
     return 0;

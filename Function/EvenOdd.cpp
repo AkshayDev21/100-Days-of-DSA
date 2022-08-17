@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // 1- Even
 // 0- dd
 bool isEven(int a){
@@ -12,7 +11,6 @@ bool isEven(int a){
         return 1;
     }
 }
-
 int main(){
     int num;
     cin>>num;
