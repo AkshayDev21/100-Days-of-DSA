@@ -4,9 +4,7 @@ int factorial(int n){
     if(n == 0){
         return 1;
     } 
-    int small = factorial(n-1);
-    int big = n * small;
-    return big;
+    return n * factorial(n-1);
 }
 int main(){
     int n;
