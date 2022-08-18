@@ -8,7 +8,6 @@ int power(int n){
     return 2 * power(n-1);
     // return n + power(n-1);
 }
-
 int main(){
     int n;
     cin>>n;
