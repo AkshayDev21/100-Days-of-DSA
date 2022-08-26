@@ -1,17 +1,22 @@
 #include <iostream>
 using namespace std;
 
-bool linearSearch(int arr[], int size, int k){
-    if(size==0){
+bool binarysearch(int arr[], int s, int e, int k){
+    if(s>e){
         return false;
     }
-    if(arr[0]==k){
+
+    int mid = s + (e-s)/2;
+    if(arr[mid] == k){
         return true;
     }
-    else{
-        bool remainingPart = linearSearch(arr+1, size-1, k);
-        return remainingPart;
+    if(arr[mid] < k){
+        return binarysearch(arr, mid+1, e, k);
     }
+    else{
+        return binarysearch(arr, s, mid-1, k);
+    }
+
 }
 
 int main(){
@@ -29,15 +34,7 @@ int main(){
     int key;
     cin>>key;
 
-    int ans = linearSearch(arr, size, key);
-
-    if(ans){
-        cout<<"Element Found "<<endl;
-    }
-    else{
-        cout<<"No element found"<<endl;
-    }
+    int ans = binarysearch(arr, 0, 100, key);
+    cout<<ans<<endl;
     return 0;
-    
-
 }
