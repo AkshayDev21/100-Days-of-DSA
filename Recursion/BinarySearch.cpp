@@ -16,7 +16,6 @@ bool binarysearch(int arr[], int s, int e, int k){
     else{
         return binarysearch(arr, s, mid-1, k);
     }
-
 }
 
 int main(){
