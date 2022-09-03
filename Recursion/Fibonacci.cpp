@@ -9,7 +9,6 @@ int fibo(int n){
     if(n==1){
         return 1;
     }
-
     //Recursive Call
     int call = fibo(n-1) + fibo(n-2);
     return call;
@@ -18,7 +17,6 @@ int fibo(int n){
 int main(){
     int n;
     cin>>n;
-
     int ans = fibo(n);
     cout<<ans<<endl;
     return 0;
