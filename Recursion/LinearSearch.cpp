@@ -18,13 +18,11 @@ int main(){
     cout<<"Enter the size of array :"<<endl;
     int size;
     cin>>size;
-
     cout<<"Enter the array :"<<endl;
     int arr[100];
     for(int i=0; i<size; i++){
         cin>>arr[i];
     }
-
     cout<<"Enter the element to find it in array "<<endl;
     int key;
     cin>>key;
