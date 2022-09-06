@@ -19,7 +19,6 @@ int main(){
 
     // int *ptr = &temp[0];
     // cout<< sizeof(&ptr) << endl;
-
     int a[20] = {1,2,3,4,5};
     cout<< &a[0] << endl; 
 
