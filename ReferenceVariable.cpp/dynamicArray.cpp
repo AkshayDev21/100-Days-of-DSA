@@ -8,7 +8,6 @@ int getSum(int *arr){
     return sum; 
 }
 int main(){
-
     // char ch = 'q';
     // cout<< sizeof(ch) <<endl;
 
