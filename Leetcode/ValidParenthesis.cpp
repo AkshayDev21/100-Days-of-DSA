@@ -3,6 +3,7 @@ public:
     bool isValid(string str){
         stack <char> s;
         int len = str.length();
+        
         for(int i=0; i<len; i++){
             if(str[i] == '(' || str[i] == '{' || str[i] == '[')
                 s.push(str[i]);

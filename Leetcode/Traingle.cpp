@@ -21,6 +21,7 @@ int minimumTotal(vector<vector<int>>& triangle) {
            mine=min(mine,triangle[i][j]);
      }
  }
+ 
     return mine;
 }
 };
