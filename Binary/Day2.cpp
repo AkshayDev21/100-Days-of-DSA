@@ -14,7 +14,6 @@ int main() {
 
     bool first = (c==d);
     cout<< first << endl;
-
     bool second = (c<d);
     cout<< second << endl;
 
