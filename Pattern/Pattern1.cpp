@@ -20,7 +20,6 @@ int main(){
     //New Pattern
     int n;
     cin>>n;
-
     int row=1;
 
     while(row<=n){
