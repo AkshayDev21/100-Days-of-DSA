@@ -10,5 +10,6 @@ public:
         for (int i = 1; i < vc.size(); i++)
             maxv = max(maxv, vc[i] - vc[i-1]);
         return (int)((long)maxh * maxv % 1000000007);
+        
     }
 };

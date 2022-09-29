@@ -8,6 +8,7 @@ public:
             if(nums[i] == majority){
                 count += 1;
             }
+            
             else{
                 count -= 1;
                 if(count == 0){
