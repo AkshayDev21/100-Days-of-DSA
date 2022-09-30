@@ -15,7 +15,6 @@ int main(){
     cout<<"Value at 2 Index "<< second[2] << endl;
 
     int third[20]={2,7};
-
     int n=15;
     cout<<"printing the array" <<endl;
     for(int i=0; i<n; i++){
