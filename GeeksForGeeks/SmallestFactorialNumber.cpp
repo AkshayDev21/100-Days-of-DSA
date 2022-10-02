@@ -10,13 +10,11 @@ class Solution
             }
             return c>=n;
         } 
-        
         int findNum(int n)
         {
             if(n==1){
                 return 5;
             }
-            
             int a=0, b = 5*n;
             while(a<b){
                 int mid = a + (b-a)/2;
@@ -25,8 +23,7 @@ class Solution
                 }
                 else{
                     a = mid+1;
-                }
-                
+                }   
                 
             }
            
