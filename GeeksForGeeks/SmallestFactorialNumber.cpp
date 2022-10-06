@@ -1,7 +1,6 @@
 class Solution
 {
     public:
-    
         bool fact(int mid, int n){
             int prod=5, c=0;
             while(prod <= mid){
