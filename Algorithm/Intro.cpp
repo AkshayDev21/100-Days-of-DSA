@@ -19,10 +19,8 @@ int getLength(char name[]){
 
 int main(){
     char name[20];
-
     cout<<"Enter your Name : "<<endl;
     cin>> name;
-
     cout<<"Your name is : "<<endl;
     cout<<name<<endl;
     int len = getLength(name);

@@ -7,6 +7,7 @@ int main() {
     cin>>name;
     int age;
     cin>>age;
+    
     cout<<"The name of the person is "<<name<<" and the age is "<<age<<".";
     return 0;
 }
