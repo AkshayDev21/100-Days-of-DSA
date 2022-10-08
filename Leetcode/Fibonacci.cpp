@@ -5,7 +5,6 @@ public:
             return n;
         }
         vector vals = {0, 1};
-        
         int i = 2;
         int sum = 1;
         while(i <= n){
@@ -13,7 +12,6 @@ public:
             vals.push_back(sum);
             i++;
         }
-        
         return sum;
     }
 };
