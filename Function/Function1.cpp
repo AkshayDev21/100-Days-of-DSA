@@ -9,11 +9,13 @@ int power(){
     }
 
     return ans;
+
 }
 
 int main(){
     
     int answer = power();
+
     cout<<"Answer is a "<<answer<< endl;
 
     return 0;
