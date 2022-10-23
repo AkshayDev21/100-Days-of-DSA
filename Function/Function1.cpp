@@ -15,7 +15,6 @@ int power(){
 int main(){
     
     int answer = power();
-
     cout<<"Answer is a "<<answer<< endl;
 
     return 0;
