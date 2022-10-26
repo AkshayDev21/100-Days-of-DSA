@@ -8,7 +8,6 @@ int main(){
 
     cout<<"Enter the number a"<< endl;
     cin>>a;
-    
     cout<<"Enter the number b"<< endl;
     cin>>b;
 
@@ -18,8 +17,6 @@ int main(){
     if(b>a) {
         cout<<"B is greater than A"<< endl;
     } 
-
-     
 
     // Program for Positive, negative and zero Number
     int c;
@@ -35,7 +32,6 @@ int main(){
     else{
         cout<<"C is 0" << endl;
     }
-    
 
     //Looping 2 e.g
     int n;
