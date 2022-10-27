@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	
 	int t;
 	cin>>t;
 	while(t--){
@@ -16,6 +15,7 @@ int main() {
 	        cout<<y;
 	    }
 	    cout<<endl;
+
 	}
 	return 0;
 }
