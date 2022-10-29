@@ -9,6 +9,7 @@ class Node {
     Node(int data){
         this -> data = data;
         this -> next = NULL;
+        
     }
 };
 void insertAtHead(Node* &head, int d){
@@ -21,6 +22,7 @@ void insertAttail(Node* &tail, int d){
     //new node create
     Node* temp = new Node(d);
     tail -> next = temp;
+    
     tail = temp;
 }
 void print(Node* &head){
@@ -29,6 +31,7 @@ void print(Node* &head){
     while(temp != NULL){
         cout<< temp -> data <<" ";
         temp = temp -> next;
+        
     }
     cout<<endl;
 }
@@ -38,12 +41,14 @@ void insertAtPosition(Node* &tail, Node* &head, int position, int d){
     if(position == 1){
         insertAtHead(head, d);
         return;
+        
     }
 
     Node* temp = head;
     int cnt =1;
     while(cnt < position-1){
         temp = temp -> next;
+        
         cnt ++;
     }
 
