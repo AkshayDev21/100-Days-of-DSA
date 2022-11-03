@@ -8,8 +8,8 @@ int firstOcc(int arr[], int n, int key){
         if(arr[mid] == key){
             ans = mid;
             e = mid-1;
+            
         }
-        
         else if(key > arr[mid]){
             s = mid+1;
         }
@@ -32,6 +32,7 @@ int lastOcc(int arr[], int n, int key){
             ans = mid;
             s = mid+1;
         }
+        
         else if(key > arr[mid]){
             s = mid+1;
         }
