@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class A{
     public:
     void sayhello(){
@@ -13,6 +12,5 @@ class A{
 int main(){
     A obj;
     obj.sayhello();
-
     return 0;
 }
