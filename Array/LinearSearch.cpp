@@ -8,7 +8,6 @@ bool search(int arr[], int size, int key) {
         }
     }
     return 0;
-
 }
 int main(){
     int arr[10] = {1,2,3,4,53,6,7,80,9,15};

@@ -2,9 +2,12 @@ int findElementAtIndex(int a[], int n, int key)
     {
         int ele;
         for(int i =0; i<n; i++){
+
             if(key == i){
                 ele = a[i];
+
             }
         }
+
         return ele;
     }

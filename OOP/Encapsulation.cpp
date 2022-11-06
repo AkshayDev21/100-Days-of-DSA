@@ -6,6 +6,7 @@ class Student {
         string name;
         int age;
         int height;
+    
     public :
     int getAge() { 
         return this->age;  

@@ -7,12 +7,15 @@ int power(){
     for(int i=1; i<=b; i++){
         ans = ans * a;
     }
+
     return ans;
+
 }
 
 int main(){
     
     int answer = power();
     cout<<"Answer is a "<<answer<< endl;
+
     return 0;
 }

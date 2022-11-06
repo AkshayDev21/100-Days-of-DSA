@@ -5,7 +5,6 @@ int main() {
     //Data Types and Operators
     int a = 'a';
     cout<< a << endl;
-
     int b = 2/5;
     cout<< b << endl;
 
