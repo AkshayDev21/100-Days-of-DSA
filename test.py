@@ -1,35 +1,38 @@
-import collections
-import json
-def sumOfDistancesInTree( N, edges):
-        graph = collections.defaultdict(set)
-        for u, v in edges:
-            graph[u].add(v)
-            graph[v].add(u)
+def bubbleSort(arr):
 
-        count = [1] * N
-        ans = [0] * N
-        def dfs(node = 0, parent = None):
-            for child in graph[node]:
-                if child != parent:
-                    dfs(child, node)
-                    count[node] += count[child]
-                    ans[node] += ans[child] + count[child]
+    n = len(arr)
 
-        def dfs2(node = 0, parent = None):
-            for child in graph[node]:
-                if child != parent:
-                    ans[child] = ans[node] - count[child] + N - count[child]
-                    dfs2(child, node)
-        dfs()
-        dfs2()
-        return ans
+    for i in range(n):
+        for j in range(0, n - i - 1):
+
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+    return arr
 
 
-n = int(input())
-arr = []
-for _ in range(n-1):
-    temp = list(map(int,input().split()))
-    arr.append(temp)
-arr  = sumOfDistancesInTree(n,arr)
-for i in arr:
-    print(i)
+# Selection Sort algorithm in Python
+def selectionSort(array, size):
+
+    for s in range(size):
+        min_idx = s
+
+        for i in range(s + 1, size):
+
+            if array[i] < array[min_idx]:
+                min_idx = i
+
+        # Arranging min at the correct position
+        (array[s], array[min_idx]) = (array[min_idx], array[s])
+
+    return array
+
+
+def test_sorting():
+    arr = [2, 1, 10, 23]
+    expected = [1, 2, 10, 23]
+    NE = [2, 1, 10, 23]
+
+    assert selectionSort(arr, len(arr)) == expected
+    assert bubbleSort(arr) == NE
+    
