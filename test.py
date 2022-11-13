@@ -7,10 +7,7 @@ def bubbleSort(arr):
 
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-
     return arr
-
-
 # Selection Sort algorithm in Python
 def selectionSort(array, size):
 
@@ -26,7 +23,6 @@ def selectionSort(array, size):
         (array[s], array[min_idx]) = (array[min_idx], array[s])
 
     return array
-
 
 def test_sorting():
     arr = [2, 1, 10, 23]
