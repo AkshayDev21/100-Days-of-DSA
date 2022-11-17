@@ -5,6 +5,7 @@ graph = {
   '4' : ['1'],
   '5' : ['3']
 }
+
 visited =[]
 queue =[]
 def bfs(visited, graph, node):
