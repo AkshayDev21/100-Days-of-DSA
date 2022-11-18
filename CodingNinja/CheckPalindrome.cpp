@@ -9,12 +9,10 @@ bool checkPalindrome(char a[], int n){
         if(a[s] != a[e]){
             return 0;
         }
-
         else{
             s++;
             e--;
         }
-
     }
     return 1;
 }
