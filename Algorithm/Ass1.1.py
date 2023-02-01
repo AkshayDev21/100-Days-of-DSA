@@ -3,7 +3,7 @@ graph = {
   '3' : ['1', '2','5'],
   '2' : ['1','3'],
   '4' : ['1'],
-  '5' : ['3']
+  '5' : ['5']
 }
 visited =set()
 def dfs(visited,graph,root):
