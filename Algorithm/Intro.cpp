@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void reverse(char name[], int n){
     int s=0;
     int e =n-1;
